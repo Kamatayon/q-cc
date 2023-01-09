@@ -18,5 +18,5 @@ upd: {d:.j.k x;
       price: `float$d[`priceUsd];
       direction: `$d[`direction];
       volume: `float$d[`volume];
-      neg[h](".u.upd";`trades; enlist each (`timespan$dt; sym; `date$dt; quote; price; direction; volume))}
+      neg[h](".u.upd";`trades; enlist each (`timespan$dt; sym; quote; price; direction; volume))}
 w:.ws.open["wss://ws.coincap.io/trades/binance"; `upd] // export SSL_VERIFY_SERVER=NO

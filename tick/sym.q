@@ -1,1 +1,1 @@
-trades:([] time:`timespan$();sym:`symbol$();date:`date$();quote:`symbol$();price:`float$();direction:`symbol$();volume:`float$())
+trades:([] time:`timespan$();sym:`symbol$();quote:`symbol$();price:`float$();direction:`symbol$();volume:`float$())

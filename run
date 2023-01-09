@@ -1,0 +1,21 @@
+#!/bin/bash
+q=$QHOME/l64/q
+
+case $1 in
+  tickerplant)
+    $q "tick.q"
+    ;;
+  rdb)
+    $q "tick/r.q"
+    ;;
+  feedhandler)
+    $q "fh.q"
+    ;;
+  showsub)
+    $q "showsub.q"
+    ;;
+  hdb)
+    $q "hdb.q"
+    ;;
+esac
+
